@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/68f6d30e8a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Playpen+Sans:wght@700&family=Yellowtail&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Arnim</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <a href="" class="nombre">ARNIM</a>
+            <input type="checkbox" id="desplegable">
+            <label for="desplegable" class="btndesplegable">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <ul class="nav-menu nav-menu-visible">
+                <li class="nav-menu-item">
+                    <a href="#Antioquia" class="nav-menu-link nav-link">EN ANTIOQUÍA</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#colombia-sec" class="nav-menu-link nav-link">COLOMBIA</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#exper" class="nav-menu-link nav-link">EXPERIENCIAS</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#footeer" class="nav-menu-link nav-link">CONTACTOS</a>
+                </li>
+                <li class="nav-menu-item">
+                    <div class="idioma-container">
+                        <button><i class="fa-solid fa-globe fa-flip"></i></button>
+                        <div class="dropdown-content">
+                            <a href="./index.html">Spanish</a>
+                            <a href="../EN/index.html">English</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="container">
+                <div class="slider-main">
+                    <input type="radio" id="1" name="image-slide" hidden>
+                    <input type="radio" id="2" name="image-slide" hidden>
+                    <input type="radio" id="3" name="image-slide" hidden>
+                    <input type="radio" id="4" name="image-slide" hidden>
+                    <input type="radio" id="5" name="image-slide" hidden>
+
+                    <div class="slide">
+
+                        <div class="items-slide">
+                            <img src="./images/guatape.jpg" alt="">
+                        </div>
+                        <div class="items-slide">
+                            <img src="./images/pexels-maria-paula-medina-13804522.jpg" alt="">
+                        </div>
+                        <div class="items-slide">
+                            <img src="./images/bogota.jpg" alt="">
+                        </div>
+                        <div class="items-slide">
+                            <img src="./images/santamarta.jpg" alt="">
+                        </div>
+                        <div class="items-slide">
+                            <img src="./images/medallo.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="paginacion">
+                        <label class="pagination-item" for="1">
+                            <img src="./images/guatape.jpg">
+                        </label>
+                        <label class="pagination-item" for="2">
+                            <img src="./images/pexels-maria-paula-medina-13804522.jpg">
+                        </label>
+                        <label class="pagination-item" for="3">
+                            <img src="./images/bogota.jpg">
+                        </label>
+                        <label class="pagination-item" for="4">
+                            <img src="./images/santamarta.jpg">
+                        </label>
+                        <label class="pagination-item" for="5">
+                            <img src="./images/medallo.jpg">
+                        </label>
+                    </div>
+                </div>
+
+            </div>
+            <div class="about-title">
+                <h2>BIENVENIDOS A <strong>ARNIM</strong></h2>
+            </div>
+            <div class="about-text">
+                <p>
+                    <br>
+                    Quienes somos ?
+                    <br> 
+                    Somos un grupo de jóvenes que les gusta viajar y compartir experiencias con personas igual de aventureras 
+                    Hemos creado una plataforma para que los viajeros descubran nuevos lugares, compartan experiencias y hagan más grande la 
+                    comunidad de viajeros por Colombia
+                    <br><br> 
+                    Que es arnim?
+                    <br> 
+                    Arnim es la traducción de una palabra del idioma albanés y es muy usada en nuestra region “parche” 
+                    Por que creemos que esta palabra transmite toda la energía que nos da conocer nuevos lugares
+                    <br>
+                </p>
+            </div>
+        </section>
+        <section class="antioquia-container" id="Antioquia">
+            <h1>TURISMO EN ANTIOQUIA</h1>
+            <div class="antioquia">
+                <div class="box-a">
+                    <img src="./images/guatape.jpeg" alt="">
+                    <div class="capa">
+                        <h2>GUATAPÉ</h2>
+                    </div>
+                    <h1>
+                        TURISMO
+
+                    </h1>
+                    <p>Alugnos recorridos turisticos que puedes hacer en este sitio es visitar la Plazoleta de los zócalos, 
+                        Malecón de Guatapé, subir la piedra del peñol, visitar la calle del recuerdo y diferentes recreaciones acuáticas.
+                    </p>
+                </div>
+        
+                <div class="box-a">
+                    <img src="./images/de_Don_Matías.png" alt="">
+                    <div class="capa">
+                        <h2>
+                            DON MATÍAS
+                        </h2>
+                    </div>
+                    <h1>
+                        TURISMO
+                    </h1>
+                    <p>
+                        en este sorprendente pueblo vas a poder visitar el corregimiento de bellavista, conocer la fabrica de confección mas grande 
+                        de Colombia, visitar el monumento a la madre, el puente santander, entre otros.   
+                    </p>
+        
+                </div>
+        
+                <div class="box-a">
+                    <img src="./images/CONCEPCION.jpg" alt="">
+                    <div class="capa">
+                        <h2>
+                            CONCEPCIÓN
+                        </h2>
+                    </div>
+                    <h1>
+                        TURISMO
+                    </h1>
+                    <p>
+                        Aquí podrás visitar la cascada matasano,subir al mirador el alto del a virgen, sentarse en el parque principal José María Córdova,
+                        y caminar por el charco de los payasos, entre otros.
+                    </p>
+                </div>
+        
+                <div class="box-a">
+                    <img src="./images/jardin.jpg" alt="">
+                    <div class="capa">
+                        <h2>
+                            JARDÍN
+                        </h2>
+                    </div>
+                    <h1>
+                        TURISMO
+
+                    </h1>
+                    <p>
+                        Aqui podrás hacer senderismo de la cuava del esplendor, hacer tours cafeteros, visitarlas trucheras y podrás tener aventura en 
+                        deportes extremos.
+                    </p>
+                </div>
+                <div class="box-a">
+                    <img src="./images/jerico.jpg" alt="">
+                    <div class="capa">
+                        <h2>
+                            JERICÓ
+                        </h2>
+                    </div>
+                    <h1>
+                        TURISMO
+                    </h1>
+                    <p>
+                        Aquí podrás visitar el morro el Cristo, los chorros de quebradona, el museo de antropología y arte de Jericó y la casa museo 
+                        José Tomás Uribe Abad.  
+                    </p>
+                </div>
+                <div class="box-a">
+                    <img src="./images/La-Union.jpg" alt="">
+                    <div class="capa">
+                        <h2>
+                            LA UNIÓN
+                        </h2>
+                    </div>
+                    <h1>
+                        TURISMO
+                    </h1>
+                    <p>
+                        Te recomendamos ir bien abrigado por las bajas temperaturas que allí se presentan, aqui podras disfrutar el contacto con la naturaleza
+                        y rutas camineras.
+                    </p>
+                </div>
+                <div class="box-a">
+                    <img src="./images/santa-fe-antioquia.jpg" alt="">
+                    <div class="capa">
+                        <h2>
+                            SANTA FÉ DE ANTIOQUÍA
+                        </h2>
+                    </div>
+                    <h1>
+                        TURISMO
+                    </h1>
+                    <p>
+                        Aquí podrás caminar por el centro histórico, entrar al museo de arte religioso, conocer el puente de occidente y disfrutar los eventos culturales y ferias.
+                    </p>
+                </div>
+                <div class="box-a">
+                    <img src="./images/tamesis.jpeg" alt="">
+                    <div class="capa">
+                        <h2>
+                            TAMESIS
+                        </h2>
+                    </div>
+                    <h1>
+                        TURISMO
+                    </h1>
+                    <p>
+                        Aquí visitarás el Balneario y zona de camping Río Frío, los organales de San Antonio, el museo arqueológico cartama y el camino 
+                        pehispánico.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="experiencias" id="exper">
+            <h1>EXPERIENCIAS</h1>
+            <p>
+                Acá te contaremos las experiencias que nos han contado algunas personas que han viajado por diferentes lugares de colombia en general
+            </p>
+            <p>
+                Imagenes sacadas de http://pexels.com
+            </p>
+            <div class="expe-container">
+
+                <div class="expe-expe">
+                    <div class="expe-img">
+                        <img src="./images/retato-1.jpg" alt="">
+                    </div>
+                    <p>
+                        Me parece increible! todos los lugares que he conocido son hermosos, colombia tiene muchos paraisos ocultos
+                    </p>
+                </div>
+
+                <div class="expe-expe">
+                    <div class="expe-img">
+                        <img src="./images/retrato-2.jpg" alt="">
+                    </div>
+                    <p>
+                        Ha sido una experiencia unica, es uno de los mejores paises que he visitado, su cultura es magnifica!
+                    </p>
+                </div>
+
+                <div class="expe-expe">
+                    <div class="expe-img">
+                        <img src="./images/retrato-3.jpg" alt="">
+                    </div>
+                    <p>
+                        Su gastronomia es algo increible, me he conectado mucho con la naturaleza y con cada uno de sus paisajes, volveria mil veces!
+                    </p>
+                </div>
+
+                <div class="expe-expe">
+                    <div class="expe-img">
+                        <img src="./images/retrato-4.jpg" alt="">
+                    </div>
+                    <p>
+                        Conoci culturas indigenas, y me parecieron sorprendente su cultura y su forma de vivir con la naturaleza y tendiendo a ser una vida muy
+                        medieval
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="Colombia-container" id="colombia-sec">
+            <h1>TURISMO EN COLOMBIA</h1>
+            <P>En esta seccion encontraras los destinos con mejor acogida turistica de cada region de colombia,</P>
+            <div class="col-container">
+                <div class="col">
+                    <h1>CARIBE</h1>
+                    <img src="./images/Region_Caribe_de_Colombia.png" alt="">
+                    <div class="capa">
+                        <h1>GUAJIRA</h1>
+                        <p>
+                            catedral nuestra señora de los remedios, mezquita de maicao, palomino, playa del pilón de azúcar, Punta gallinas, Riohacha,
+                            santuario de fauna y flora los flamencos, serrania de macuira.
+                        </p>
+                    </div>
+                    <p>foto tomada de: https://upload.wikimedia.org/wikipedia/ commons/6/6d/Region_Caribe_de_Colombia.png</p>
+                </div>
+
+                <div class="col">
+                    <h1>PACÌFICO</h1>
+                    <img src="./images/pacifico.jpg" alt="">
+                    <div class="capa">
+                        <h1>CHOCÓ</h1>
+                        <p>
+                            Isla gorgona, parque natural utría, Tumaco, Nuquí, Bahía Solano,
+                        </p>
+                    </div>
+                    <p>foto tomada de: https://mipledianacrisprimaria.webnode .com.co/l/region-pacifico/</p>
+                </div>
+
+                <div class="col">
+                    <h1>ANDINA</h1>
+                    <img src="./images/region-Andina.jpg" alt="">
+                    <div class="capa">
+                        <h1>NARIÑO</h1>
+                        <p>
+                            laguna de la cocha,laguna verde, plaza de nariño, santuario de nuestra señora del rosario de las lajas, tumaco, volcán cumbal,
+                            cañon de juanambú, Pasto.
+                        </p>
+                    </div>                 
+                    <p>https://www.lifeder.com/caracteristicas-region-andina-colombia/</p>
+                </div>
+
+                <div class="col">
+                    <h1>ORINOQUÌA</h1>
+                    <img src="./images/Region_Orinoquia.png" alt="">
+                    <div class="capa">
+                        <h1>META</h1>
+                        <p>
+                            alto de menegua mitad de colombia , bioparque los ocarros, caño cristales, museo mirador turístico ecológico cultural la piedra del amor parrilla,
+                            parque avestruz, plaza los libertadores, parque las malocas, parque natural sierra de la macarena.
+                        </p>
+                    </div>
+                    <p>https://es.wikipedia.org/wiki/Archivo:Region_Orinoquia_de_Colombia.png</p>
+                </div>
+
+                <div class="col">
+                    <h1>AMAZONÌA</h1>
+                    <img src="./images/amazonia-colombia.jpg" alt="">
+                    <div class="capa">
+                        <h1>LETICIA</h1>
+                        <p>
+                            parque nacional amacayacu, lago tarapoto, parque nacional natural río puré, parque natural yaigoje apaporis, puerto nariño, 
+                            reserva natural flor de loto, Reserva Natural Omagua, Reserva Natural Victoria Regia.
+                        </p>
+                    </div> 
+                    <p>foto sacada de: https://departamentosdecolombia.com/colombia/region-amazonica/</p>
+                </div>
+
+                <div class="col">
+                    <h1>INSULAR</h1>
+                    <img src="./images/region_insular.png" alt="">
+                    <div class="capa">
+                        <h1>San Andrés</h1>
+                        <p>
+                            Johnny Cay, Bahía Cove, cueva morgan, iglesia bautista de la loma, parque natural Old Providence McBeen Lagoon
+                        </p>
+                    </div>  
+                    <p>https://student-sport.weebly.com/regioacuten-insular.html</p>
+                </div>
+
+            </div>
+        </section>
+            
+    </main>
+
+    <footer id="footeer">
+        <div class="nombre">
+            <a href="">ARNIM</a>
+        </div>
+        <div class="redes-sociales">
+            <a href="https://instagram.com/clubhouse.caps?igshid=NzZlODBkYWE4Ng==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <div>
+            <p>Nuestro objetivo es posicionar el desarrollo del turismo en el país, como factor de competitividad de los negocios 
+                turísticos y de desarrollo social y cultural local.
+            </p>
+        </div>
+    </footer>    
+
+</body>
+
+</html>
